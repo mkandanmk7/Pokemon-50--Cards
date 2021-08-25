@@ -61,13 +61,15 @@ h1 {
 }
 #arrow:hover {
   transition: 0.2s ease-out;
-  transform: scale(1.5);
+  transform: scale(1.7);
+  cursor: pointer;
+  filter: drop-shadow(1px 5px 10px);
 }
 
 .buttonPrev,
 .buttonFor {
   width: 90px;
-  background: transparent;
+  /* background: transparent; */
 
   height: max-content;
 }
@@ -126,10 +128,10 @@ h1 {
 span {
   font-weight: bold;
   font-size: 2rem;
+
   letter-spacing: 2.5px;
   /* margin-left: 10px; */
-  margin-top: 20px;
-
+  line-height: 100px;
   font-family: "Bangers", cursive;
   filter: drop-shadow(1px 5px 10px rgb(81, 109, 26));
 }
@@ -149,7 +151,7 @@ span {
 }
 
 .pokemon .info {
-  margin-top: 20px;
+  margin-top: 5px;
   letter-spacing: 1px;
   background-color: rgba(161, 148, 148, 0.06);
   padding: 5px 10px;
@@ -159,7 +161,7 @@ span {
   text-align: left;
   font-size: 20px;
 }
-.info {
+div.info {
   padding: 20px;
 }
 .info:hover {
