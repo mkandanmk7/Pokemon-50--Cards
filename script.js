@@ -8,7 +8,7 @@ buttons.innerHTML = `
 <img id="arrow" src="https://www.pngmart.com/files/3/Right-Arrow-PNG-File.png" alt="arrow" class="buttonFor" onclick="nextPage()">`;
 let poke_container = document.createElement("div");
 poke_container.className = "poke-container";
-document.body.append(header, buttons, poke_container);
+document.body.append(header, poke_container, buttons);
 
 let number = 1;
 const colors = {
