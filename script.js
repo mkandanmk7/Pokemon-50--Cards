@@ -30,7 +30,7 @@ const colors = {
   normal: "#F5F5F5",
 };
 
-const main_types = Object.keys(colors);
+const main_types = Object.keys(colors); //getting all object keys in array.
 console.log(main_types);
 
 const fetchPokemon = async () => {
