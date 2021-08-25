@@ -3,9 +3,10 @@ header.className = "cardTitle";
 header.innerText = "Pokemon";
 let buttons = document.createElement("div");
 buttons.className = "btns";
+// https://www.pngmart.com/files/16/Left-Arrow-Silhouette-PNG-Image.png   https://www.pngmart.com/files/3/Right-Arrow-PNG-File.png
 buttons.innerHTML = `
-<img  id="arrow" src="https://www.pngmart.com/files/16/Left-Arrow-Silhouette-PNG-Image.png" alt="arrow" class="buttonPrev" onclick="previous()">
-<img id="arrow" src="https://www.pngmart.com/files/3/Right-Arrow-PNG-File.png" alt="arrow" class="buttonFor" onclick="nextPage()">`;
+<img  id="arrow" src="/pokeButton/assets/leftArrow.png" alt="arrow" class="buttonPrev" onclick="previous()">
+<img id="arrow" src="/pokeButton/assets/rightArrow.png" alt="arrow" class="buttonFor" onclick="nextPage()">`;
 let poke_container = document.createElement("div");
 poke_container.className = "poke-container";
 document.body.append(header, poke_container, buttons);
