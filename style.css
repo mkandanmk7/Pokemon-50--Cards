@@ -67,6 +67,7 @@ h1 {
 .buttonPrev,
 .buttonFor {
   width: 90px;
+  background: transparent;
 
   height: max-content;
 }

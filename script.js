@@ -4,8 +4,8 @@ header.innerText = "Pokemon";
 let buttons = document.createElement("div");
 buttons.className = "btns";
 buttons.innerHTML = `
-<img  id="arrow" src="/pokeButton/assets/leftArrow.png" alt="arrow" class="buttonPrev" onclick="previous()">
-<img id="arrow" src="/pokeButton/assets/rightArrow.png" alt="arrow" class="buttonFor" onclick="nextPage()">`;
+<img  id="arrow" src="https://i.pinimg.com/originals/18/8c/fa/188cfa53a6ef3231c4e261acc132112e.gif" alt="arrow" class="buttonPrev" onclick="previous()">
+<img id="arrow" src="https://www.clipartmax.com/png/middle/209-2093859_fast-forward-thin-double-arrows-vector-scalable-vector-graphics.png" alt="arrow" class="buttonFor" onclick="nextPage()">`;
 let poke_container = document.createElement("div");
 poke_container.className = "poke-container";
 document.body.append(header, buttons, poke_container);
