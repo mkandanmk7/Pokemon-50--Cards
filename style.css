@@ -50,8 +50,8 @@ h1 {
 }
 
 .btns {
-  position: sticky;
-  bottom: 20px;
+  /* position: sticky; */
+  bottom: 0px;
   padding: 10px;
   border: none;
   display: flex;
