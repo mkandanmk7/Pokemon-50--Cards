@@ -16,10 +16,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  position: relative;
   font-family: "Lato";
   margin: 0;
-  position: relative;
 }
 
 h1 {
@@ -28,6 +27,9 @@ h1 {
   padding: 0 40px;
   position: sticky;
   top: 0;
+  text-align: center;
+  /* display: block; */
+  width: 100%;
   border-radius: 30rem;
 
   background-color: rgba(103, 236, 159, 0.329);
@@ -56,7 +58,7 @@ h1 {
   border: none;
   display: flex;
   width: 400px;
-
+  margin-top: 30px;
   justify-content: space-around;
   /* background-color: darkcyan; */
 }
@@ -66,11 +68,18 @@ h1 {
   cursor: pointer;
   filter: drop-shadow(1px 5px 10px);
 }
-
+.buttonFor {
+  right: 20%;
+}
+.buttonPrev {
+  left: 20%;
+}
 .buttonPrev,
 .buttonFor {
-  width: 90px;
+  bottom: 0;
 
+  width: 90px;
+  position: absolute;
   height: max-content;
 }
 
@@ -101,6 +110,7 @@ h1 {
 
   text-align: center;
 }
+
 .innerCard {
   border-radius: 8px;
   padding: 20px;
@@ -164,12 +174,16 @@ span {
 }
 div.info {
   padding: 20px;
+  text-transform: capitalize;
+
+  /* margin: 20p */
 }
 .info:hover {
   transition: 0.25s ease-out;
   filter: drop-shadow(0px 5px 10px rgba(25, 26, 24, 0.5));
   font-size: 1.3rem;
   cursor: grab;
+
   transform: scale(0.9);
 }
 
